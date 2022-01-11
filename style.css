@@ -1,0 +1,101 @@
+@font-face {
+    font-family:'Gobold bold';
+    src: url(../site-metaverso/fonts/Gobold-Bold.ttf) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gobold bold', sans-serif;
+}
+header {
+    height: 110px;
+    background-color: #23152e;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.icon_redes_sociais {
+    display: flex;
+    align-items: center;
+}
+.icon_redes_sociais img {
+    padding: 5px;
+}
+#banner {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../site-metaverso/images/slide-metaverso.png);
+    background-position: center;
+    background-size: cover;
+    height: 755px;
+}
+.text_banner {
+    display: flex;
+    flex: 1;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.text_banner h1 {
+    color: #ff00cc;
+    font-size: 80px;
+}
+.conteudo {
+    display: flexbox;
+    justify-content: center;
+    background-image: url(../site-metaverso/images/fundo-conteudo.png);
+    background-position: center;
+    background-size: cover;
+    height: 1070px;
+    margin-top: 0;
+}
+.text_conteudo {
+    display: flex;
+    justify-content: center;
+        
+}
+.text_conteudo h2 {
+    color: #ff00cc;
+    font-size: 45px;
+    margin-top: 50px;
+    max-width: 850px;
+    text-align: center;
+}
+.sub_text_conteudo {
+    display: flex;
+    justify-content: center;
+}
+.sub_text_conteudo h3 {
+    color: #3d0179;
+    font-size: 30px;
+    margin-top: 15px;
+    max-width: 650px;
+    text-align: center;
+}
+.p_text_conteudo {
+    display: flex;
+    justify-content: center;
+}
+.p_text_conteudo p {
+    color: #3d0179;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    padding: 0 100px;
+    text-align: center;
+}
+div.video_conteudo {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
